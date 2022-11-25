@@ -1,0 +1,178 @@
+{
+    "dota": [
+        {
+            "id": 1,
+            "hero": "Anti Mage",
+            "primary": "Agility",
+            "ability1": "Mana Void",
+            "bio_ability1": "For each point of mana missing by the target unit, damage is dealt to it and surrounding enemies.",
+            "ability_cd1": "80/100/120",
+            "manacosts_ability1": "100/200/300",
+            "ability2": "Blink",
+            "bio_ability2": "Short distance teleportation that allows Anti-Mage to move in and out of combat.",
+            "ability_cd2": "15,12,9,6",
+            "manacosts_ability2": "60",
+            "bio": "The monks of Turstarkuri watched the rugged valleys below their mountain monastery as wave after wave of invaders swept through the lower kingdoms. Ascetic and pragmatic, in their remote monastic eyrie they remained aloof from mundane strife, wrapped in meditation that knew no gods or elements of magic....",
+            "Gambarhero": "assets/Hero/antimage.png",
+            "Gambarability1": "assets/Hero/antimage_mana_void.png",
+            "Gambarability2": "assets/Hero/antimage_blink.png"
+        },
+        {
+            "id": 2,
+            "hero": "Clinkz",
+            "primary": "Agility",
+            "ability1": "Burning Barrage",
+            "bio_ability1": "Clinkz channels and shoots multiple piercing arrows in the target direction that hit all enemy units dealing a percentage of Clinkz' attack damage and applying attack modifiers.",
+            "ability_cd1": "30/26/22/18",
+            "manacosts_ability1": "40/55/70/85",
+            "ability2": "Searing Arrows",
+            "bio_ability2": "Imbues Clinkz's arrows with fire for extra damage.",
+            "ability_cd2": "0/0/0/0",
+            "manacosts_ability2=": "10/15/20/25",
+            "bio": "At the base of the Bleeding Hills stretches a thousand-league wood, a place called The Hoven, where black pools gather the tarry blood of the uplands, and the king-mage Sutherex sits in benevolent rule...",
+            "Gambarhero": "assets/Hero/clinkz.png",
+            "Gambarability1": "assets/Hero/clinkz_burning_barrage.png",
+            "Gambarability2": "assets/Hero/clinkz_searing_arrows.png"
+        },
+        {
+            "id": 3,
+            "hero": "EarthShaker",
+            "primary": "Strength",
+            "ability1": "Fissure",
+            "bio_ability1": "Slams the ground with a mighty totem, creating an impassable ridge of stone while stunning and damaging enemy units along its line.",
+            "ability_cd1": "21/19/17/14",
+            "manacosts_ability1": "125/140/155/170",
+            "ability2": "Echo Slam",
+            "bio_ability2": "Shockwaves travel through the ground, damaging enemy units.  Each enemy hit causes an echo to damage nearby units. Real heroes cause two echoes.",
+            "ability_cd2": "150/130/110",
+            "manacosts_ability2": "145/205/265",
+            "bio": "Like a golem or gargoyle, Earthshaker was one with the earth but now walks freely upon it. Unlike those other entities, he created himself through an act of will, and serves no other master. In restless slumbers, encased in a deep seam of stone, he became aware of the life drifting freely above him. He grew curious.. ",
+            "Gambarhero": "assets/Hero/earthshaker.png",
+            "Gambarability1": "assets/Hero/earthshaker_echoslam.png",
+            "Gambarability2": "assets/Hero/earthshaker_fissure.png"
+        },
+        {
+            "id": 4,
+            "hero": "Faceless Void",
+            "primary": "Agility",
+            "ability1": "Time Walk",
+            "bio_ability1": "Rushes to a target location while backtracking any damage taken the last 2.0 seconds.",
+            "ability_cd1": "24/18/12/6",
+            "manacosts_ability1": "40",
+            "ability2": "Chronosphere",
+            "bio_ability2": "Creates a blister in spacetime, trapping all units caught in its sphere of influence and causes you to move very quickly inside it.  Only Faceless Void and any units he controls are unaffected.",
+            "ability_cd2": "160/150/140",
+            "manacosts_ability2": "150/225/300",
+            "bio": "Darkterror the Faceless Void is a visitor from Claszureme, a realm outside of time. It remains a mystery why this being from another dimension believes the struggle for the Nemesis Stones is worth entering our physical plane, but apparently an upset in the balance of power in this world has repercussions in adjacent dimensions.",
+            "Gambarhero": "assets/Hero/faceless_void.png",
+            "Gambarability1": "assets/Hero/faceless_void_time_walk.png",
+            "Gambarability2": "assets/Hero/faceless_void_chronosphere.png"
+        },
+        {
+            "id": 5,
+            "hero": "Juggernaut",
+            "primary": "Agility",
+            "ability1": "Blade Fury",
+            "bio_ability1": "Causes a bladestorm of destructive force around Juggernaut, rendering him immune to magic and dealing damage to nearby enemy units. ",
+            "ability_cd1": "42/34/26/18",
+            "manacosts_ability1": "120/110/100/90",
+            "ability2": "Omnislash",
+            "bio_ability2": "Juggernaut leaps towards the target enemy units, and then slashes the target and other nearby enemy units at an increased attack rate. ",
+            "ability_cd2": "140",
+            "manacosts_ability2": "200/275/350",
+            "bio": "No one has ever seen the face hidden beneath the mask of Yurnero the Juggernaut. It is only speculation that he even has one. For defying a corrupt lord, Yurnero was exiled from the ancient Isle of Masks--a punishment that saved his life.",
+            "Gambarhero": "assets/Hero/juggernaut.png",
+            "Gambarability1": "assets/Hero/juggernaut_blade_fury.png",
+            "Gambarability2": "assets/Hero/juggernaut_omni_slash.png"
+        },
+        {
+            "id": 6,
+            "hero": "Terrorblade",
+            "primary": "Agility",
+            "ability1": "Conjure Image",
+            "bio_ability1": "Creates an illusion of Terrorblade that deals damage.",
+            "ability_cd1": "16",
+            "manacosts_ability1": "70/75/80/85",
+            "ability2": "Metamorphosis",
+            "bio_ability2": "Terrorblade transforms into a powerful demon with a ranged attack.",
+            "ability_cd2": "155",
+            "manacosts_ability2": "100",
+            "bio": "Terrorblade is the demon marauder--an outlaw hellion whom even other demons fear. A cosmic iconoclast, he stole from the Demon Lords, ignored the codified rites that should have bound his behavior, and broke every law of the seven Infernal Regions.",
+            "Gambarhero": "assets/Hero/terrorblade.png",
+            "Gambarability1": "assets/Hero/terrorblade_conjure_image.png",
+            "Gambarability2": "assets/Hero/terrorblade_metamorphosis.png"
+        }
+    ],
+    "dotaitem": [
+        {
+            "id": 1,
+            "item": "Tango",
+            "Info": "Use a charge to consume a tree. Restores the user's HP slowly over time.",
+            "harga": "90",
+            "Gambar": "assets/Item/Tango.png"
+        },
+        {
+            "id": 2,
+            "item": "Bottle",
+            "Info": "It is used to restore HP and Mana over a short period of time.",
+            "harga": "675",
+            "Gambar": "assets/Item/Bottle.png"
+        },
+        {
+            "id": 3,
+            "item": "Boots of Speed",
+            "Info": "Fleet footwear, increasing movement.",
+            "harga": "500",
+            "Gambar": "assets/Item/Boots.png"
+        },
+        {
+            "id": 4,
+            "item": "Blink Dagger",
+            "Info": "Teleport to a target point. If damage is taken from a player or Roshan, blink dagger will be disabled for a few seconds.",
+            "harga": "2250",
+            "Gambar": "assets/Item/Dagger.png"
+        },
+        {
+            "id": 5,
+            "item": "Black King Bar",
+            "Info": "Grants Spell Immunity. Duration decreases with each use. Some abilities are able to pierce through Spell Immunity.",
+            "harga": "4050",
+            "Gambar": "assets/Item/BKB.png"
+        },
+        {
+            "id": 6,
+            "item": "Aghanim Scepter",
+            "Info": "Upgrades the spells of heroes. Applies all of its effects to the user.",
+            "harga": "4200",
+            "Gambar": "assets/Item/Aghanim.png"
+        },
+        {
+            "id": 7,
+            "item": "Aegis Of Immortal",
+            "Info": "The Aegis of the Immortal brings the hero who holds it back to life with full health and mana a few seconds after death.",
+            "harga": "0",
+            "Gambar": "assets/Item/Aegis.png"
+        },
+        {
+            "id": 8,
+            "item": "Satanic",
+            "Info": "Increases lifesteal for a short time, regenerating twice the damage dealt for each hit.",
+            "harga": "5050",
+            "Gambar": "assets/Item/Satanic.png"
+        },
+        {
+            "id": 9,
+            "item": "Eye of Skadi",
+            "Info": "Will slow the movement speed and attack speed of the enemy target on attack.",
+            "harga": "5300",
+            "Gambar": "assets/Item/Skadi.png"
+        },
+        {
+            "id": 10,
+            "item": "Divine Rapier",
+            "Info": "Gives bonus damage for 350 and Drops on death and cannot be destroyed.",
+            "harga": "6000",
+            "Gambar": "assets/Item/rapier.png"
+        }
+    ]
+}
