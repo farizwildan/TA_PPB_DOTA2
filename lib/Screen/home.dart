@@ -103,17 +103,6 @@ class _HomePageState extends State<HomePage> {
                   ),
                 ),
               ),
-              // Container (decoration: BoxDecoration(borderRadius: BorderRadius.circular(20),color: Colors.black,),
-              // child: Column(
-              //   mainAxisAlignment: MainAxisAlignment.center,
-              //   children: [
-
-              //   Image.asset('Item/Logoitem.jpg',scale: 3.5,),
-              //   Padding(padding: new EdgeInsets.all(10),),
-              //   Text("Items",style: TextStyle(color: Colors.white,fontSize: 30),)
-              // ],
-              // ),
-              // ),
             ],
             gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                 crossAxisCount: 2, crossAxisSpacing: 20),
@@ -169,15 +158,3 @@ class Show {
     );
   }
 }
- 
-// Future<List<Show>> fetchShows() async {
-//   final response =
-//       await http.get(Uri.parse('https://api.jikan.moe/v3/top/anime/1'));
- 
-//   if (response.statusCode == 200) {
-//     var topShowsJson = jsonDecode(response.body)['top'] as List;
-//     return topShowsJson.map((show) => Show.fromJson(show)).toList();
-//   } else {
-//     throw Exception('Failed to load shows');
-//   }
-//}
