@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:ta_PPB/Screen/home.dart';
+import 'package:url_launcher/url_launcher.dart';
 // import 'dart:convert';
 
 class ProfilePage extends StatefulWidget {
@@ -89,17 +90,20 @@ class _ProfilePageState extends State<ProfilePage> {
                         title: Text(nim[index]),
                       ),
                     ),
-                    Card(
-                        color: Colors.blueGrey[400],
-                        margin: EdgeInsets.symmetric(
-                            vertical: 10.0, horizontal: 75.0),
-                        child: ListTile(
-                          leading: Icon(
-                            Icons.email,
-                            color: Colors.blueGrey[100],
-                          ),
-                          title: Text(url[index]),
-                        )),
+                    GestureDetector(
+                      onTap: _launchUrl,
+                      child: Card(
+                          color: Colors.blueGrey[400],
+                          margin: EdgeInsets.symmetric(
+                              vertical: 10.0, horizontal: 75.0),
+                          child: ListTile(
+                            leading: Icon(
+                              Icons.email,
+                              color: Colors.blueGrey[100],
+                            ),
+                            title: Text(url[index]),
+                          )),
+                    )
                   ],
                 );
               })),
@@ -127,5 +131,11 @@ class _ProfilePageState extends State<ProfilePage> {
         },
       ),
     );
+  }
+
+  Future<void> _launchUrl() async {
+    if (!await launchUrl(Uri.parse('https://github.com/farizwildan'))) {
+      throw 'Could not launch';
+    }
   }
 }
