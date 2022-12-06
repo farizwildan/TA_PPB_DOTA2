@@ -7,7 +7,7 @@ class DetailPage extends StatefulWidget {
   final String hero;
   const DetailPage({Key? key, required this.id, required this.hero})
       : super(key: key);
-
+  
   @override
   _DetailPageState createState() => _DetailPageState();
 }
@@ -154,8 +154,8 @@ class DetailHero {
 
 Future<DetailHero> fetchdetailheroes(id) async {
   print(id);
-  final response = await http.get(Uri.parse(
-      'https://my-json-server.typicode.com/saydss/Apidota2/dota/${id}/'));
+  final response =
+      await http.get(Uri.parse('http://localhost:3000/dota/${id}/'));
   if (response.statusCode == 200) {
     print(response.body);
 
